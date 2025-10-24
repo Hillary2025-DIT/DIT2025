@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(210, 206, 206);
+}
+#logo{
+    height: 30%;
+    width: 30%;
+}
+#nav{
+    background-color: white;
+    border-radius: 3px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+#nav,#home-link,#Courses-link,#Contact-link,#Apply-link{
+    margin: 20px;
+}
+a:Hover{
+    color: rgb(222, 228, 227);
+}
+a{
+    text-decoration: none;
+    color: yellow
+}
+h3{
+    text-align: center;
+}
+#izza{
+    height: 30%;
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+#events{
+    border-radius: 3px;
+}
+img{
+    border-radius: 5px;
+}
+
