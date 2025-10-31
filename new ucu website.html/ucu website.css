@@ -17,9 +17,9 @@ nav ul{
     flex-direction: row;
     justify-content: space-around;
     margin: 0;
-    float: right;
     list-style: none;
     padding: 0;
+    float: right;
     gap: 3rem;
 }
 a:hover{
