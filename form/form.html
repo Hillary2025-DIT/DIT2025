@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <form id="form1" style="border: 3px solid black;" method="post">
+            <h2>Registration Form</h2>
+            <label for="username">UserName:</label>
+            <input type="text" placeholder="Enter Your username">
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Enter Your Password">
+            <button type="submit" > Submit</button>
+
+        </form>
+        <script src="form.js">
+            document.getElementById("form1").addEventListener("submit",function(event){
+    event.preventDefault()});
+    const formData=new FormData(this);
+    for(const[name,value] of formData.entries()){
+        console.log(`${name}:${value}`)
+    }
+        </script>
+    </section>
+</body>
+</html>
